@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/background.png)
+}
+
+.container {
+    background-color: white;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+
+.footer {
+    background-color: #666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+}
+
+.footer a {
+    color: white;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #4aaaa5;
+    padding: 0px;
+}
+
+.nav-item {
+    color: #4aaaa5;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-top: 20px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-nav {
+    margin-left: 200px;
+}
