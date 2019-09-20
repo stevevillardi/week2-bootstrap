@@ -8,6 +8,11 @@ body {
     border: 1px solid #dddddd;
 }
 
+#demo {
+    margin: 20px;
+    border: 1px solid #4aaaa5;
+}
+
 .footer {
     background-color: #666666;
     color: white;
@@ -46,4 +51,43 @@ hr {
 }
 .navbar-nav {
     margin-left: 200px;
+}
+
+.imagecontainer {
+    position: relative;
+    width: 252px;
+    height: 252px;
+    margin: 20px 20px;
+    float: left;
+
+}
+
+.imagecontainer img {
+    margin: 0px;
+}
+
+.imagecontainer p {
+    position: absolute;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 180px 0px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-weight: bold;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-caption {
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    margin-bottom: 0px;
 }
