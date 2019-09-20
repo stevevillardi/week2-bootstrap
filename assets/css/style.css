@@ -1,11 +1,14 @@
 body {
-    background-image: url(../images/background.png)
+    background-image: url(../images/background.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
     background-color: white;
     margin-top: 30px;
     border: 1px solid #dddddd;
+    color: #777777;
+    line-height: 2;
 }
 
 #demo {
@@ -25,7 +28,7 @@ body {
 
 .navbar-brand {
     background-color: #4aaaa5;
-    color: #ffffff;
+    color: #ffffff !important;
     margin: 0px;
     padding: 10px;
 }
@@ -34,6 +37,13 @@ body {
     background-color: white;
     border-bottom: 1px solid #4aaaa5;
     padding: 0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
 }
 
 .nav-item {
@@ -43,6 +53,7 @@ body {
 h2 {
     color: #4aaaa5;
     margin-top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 hr {
@@ -50,7 +61,7 @@ hr {
     margin-right: 20px;
 }
 .navbar-nav {
-    margin-left: 200px;
+    margin-left: 500px;
 }
 
 .imagecontainer {
@@ -65,6 +76,7 @@ hr {
 .imagecontainer img {
     margin: 0px;
 }
+
 
 .imagecontainer p {
     position: absolute;
@@ -90,4 +102,20 @@ hr {
 
 .carousel-caption p {
     margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 880px) {
+    .navbar-nav {
+        margin-left: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        margin-left: 0px;
+        text-align: center;
+    }
+    
 }
